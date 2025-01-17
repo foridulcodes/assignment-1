@@ -382,3 +382,93 @@ body {
   button:hover {
     background-color: #145a32;
   }
+
+  .donate{
+  
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .donate-container {
+    text-align: center;
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 78%;
+    min-width: 900px;
+    margin-left: 100px;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    color: #555;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .donation-options {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .donation-option {
+    background: #fff;
+    border: 2px solid #ccc;
+    padding: 15px 20px;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .donation-option:hover {
+    border-color: #1e824c;
+    background: #f2f2f2;
+  }
+  
+  .donation-option.selected {
+    background: #d9f0e4;
+    border-color: #1e824c;
+    font-weight: bold;
+  }
+  
+  .custom-amount {
+    width: 800px;
+    height: 30px;
+    padding: 10px;
+    margin-left: 280px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    text-align: center;
+  }
+  
+  .custom-amount:focus {
+    outline: none;
+    border-color: #1e824c;
+  }
+  
+  .donate-button {
+    background-color: #1e824c;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 12px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    align-items: center;
+    margin-left: 650px;
+    margin-top: 40px;
+  }
+  
+  .donate-button:hover {
+    background-color: #145a32;
+  }
