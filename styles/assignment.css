@@ -179,3 +179,88 @@ body {
     gap: 20px;
     font-family: Work Sans;
   }
+
+  .card-container2{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    font-family: Work Sans;
+    border-radius: 25px;
+    min-width: 1250px;;
+  }
+  
+  .container-2{
+    min-width: 1250px;
+  }
+  
+  
+  .card-1{
+    background-color: #d5e1f5;
+    height: 300px;
+    width: auto;
+    border-radius: 15px;
+    
+  }
+  
+  .card-2{
+    background-color: #c6e4d6;
+    height: 300px;
+    width: auto;
+    border-radius: 15px;
+  }
+  
+  .card-3{
+    background-color: #f7ebcf;
+    height: 300px;
+    width: auto;
+    border-radius: 15px;
+  }
+  
+  
+   .text-container {
+    position: relative; 
+    width: 80%; 
+    height: 200px; 
+    overflow: hidden; 
+    border-radius: 15px;   
+    margin: auto;
+    background-color: white;
+    background-image: url('assets/quote-bg.png'); 
+    background-size: 100px 100px;   
+    background-repeat: no-repeat;  
+    background-position: right bottom;   
+    padding: 20px; 
+    color: black; 
+    border: 1px solid #ddd;  
+    margin-left: 60px; 
+    min-width: 1210px; 
+    height:auto; 
+    
+   } 
+  
+  #first-card {
+  
+    background: white;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+  }
+  
+  .con-tainer {
+    width: 88%;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: left;
+    color: black;
+  }
