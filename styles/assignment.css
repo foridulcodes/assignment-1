@@ -33,3 +33,62 @@ body {
     background-color: #007B55;
     color: white;
   }
+
+  .main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+  }
+  
+  .banner {
+    display: flex;
+    align-items: center;
+    background-color: #d5f5e3;
+    border-radius: 10px;
+    padding: 30px;
+    max-width: 1200px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    gap: 20px;
+    height: 350px;
+  }
+  
+  
+  .banner-text {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .title{
+    text-align: left;
+  }
+  .subtitle {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .headline {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 10px 0;
+    line-height: 1.5;
+    color:black;
+    text-align:left;
+  }
+
+  .explore-buttonb {
+    background-color: #006a50;
+    color: white;
+    padding: 15px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: auto;
+  }
+  
+  .explore-buttonb:hover {
+    background-color:red;
+  }
