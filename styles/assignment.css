@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;  
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #f5f5f5;
+  }
+  
+  .branding {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+  }
+  
+  .sign-in {
+    border: 2px solid #007B55;
+    color: #007B55;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .sign-in:hover {
+    background-color: #007B55;
+    color: white;
+  }
