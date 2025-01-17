@@ -472,3 +472,102 @@ body {
   .donate-button:hover {
     background-color: #145a32;
   }
+
+  .newsletter-container {
+    background-color: #cde9db;
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+    width: 800px;
+    margin-top: 50px;
+    height: 180px;
+    margin-left: 200px;
+    
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  
+  }
+  
+  .newsletter-container h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #1b4332;
+    margin-bottom: 10px;
+  }
+  
+  .newsletter-container p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .input-container {
+    display: flex;
+    justify-content: center;
+    gap: 0;
+  }
+  
+  .input-container input[type="email"] {
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-right: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    width: 60%;
+  }
+  
+  .input-container button {
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #14532d;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+    transition: background-color 0.3s;
+  }
+  
+  .input-container button:hover {
+    background-color: #0b3d1b;
+  }
+  
+  .newsletter-container .note {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .ctn {
+    margin-top: 50px;
+    background-color: white;
+  }
+  
+  h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #000;
+  }
+  
+  hr {
+    width: 50%;
+    margin: 10px auto;
+    border: 0.5px solid #ccc;
+  }
+  
+  .social-icons {
+    margin-top: 40px;
+    margin-left: 600px;
+    margin-bottom: 50px;
+  }
+  
+  .social-icons a {
+    margin: 0 10px;
+    display: inline-block;
+  }
+  
+  .social-icons img {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    
+  }
